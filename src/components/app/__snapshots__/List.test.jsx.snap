@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List item component renders a list item to the page 1`] = `
+<DocumentFragment>
+  <ul
+    class="sc-gtsrHT eOAXXw"
+  >
+    <li
+      class="sc-dlnjwi jFMDrI"
+    >
+      <img
+        alt="image"
+        class="sc-bdnxRM gAuIVV"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/c/cb/Shelley.jpg/revision/latest/scale-to-width-down/310?cb=20120527025256"
+      />
+    </li>
+  </ul>
+</DocumentFragment>
+`;
