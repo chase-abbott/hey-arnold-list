@@ -2,7 +2,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import ListItem from './ListItem';
-import { MemoryRouter as Router } from 'react-router-domu';
+import { MemoryRouter as Router } from 'react-router-dom';
 
 describe('List item component', () => {
   it('renders a list item to the page', () => {

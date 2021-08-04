@@ -4,6 +4,7 @@ exports[`List item component renders a list item to the page 1`] = `
 <DocumentFragment>
   <ul
     class="sc-gtsrHT tQpUX"
+    data-testid="list"
   >
     <li
       class="sc-dlnjwi hftDXS"

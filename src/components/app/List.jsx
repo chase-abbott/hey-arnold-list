@@ -17,7 +17,7 @@ margin: 25px;
 
 export default function List({ characters }){
   return (
-    <Ul>
+    <Ul data-testid="list">
       {characters.map(char => {
         return (
           <Li key={char._id}>
