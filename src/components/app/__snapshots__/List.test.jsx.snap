@@ -3,16 +3,20 @@
 exports[`List item component renders a list item to the page 1`] = `
 <DocumentFragment>
   <ul
-    class="sc-gtsrHT eOAXXw"
+    class="sc-gtsrHT tQpUX"
   >
     <li
-      class="sc-dlnjwi jFMDrI"
+      class="sc-dlnjwi hftDXS"
     >
-      <img
-        alt="image"
-        class="sc-bdnxRM gAuIVV"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/c/cb/Shelley.jpg/revision/latest/scale-to-width-down/310?cb=20120527025256"
-      />
+      <a
+        href="/detail/5da237699734fdcb7bef8fb8"
+      >
+        <img
+          alt="image"
+          class="sc-bdnxRM gagOgl"
+          src="https://vignette.wikia.nocookie.net/heyarnold/images/c/cb/Shelley.jpg/revision/latest/scale-to-width-down/310?cb=20120527025256"
+        />
+      </a>
     </li>
   </ul>
 </DocumentFragment>

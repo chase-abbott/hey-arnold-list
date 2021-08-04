@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { render } from '@testing-library/react';
+import { MemoryRouter as Router } from 'react-router';
 import List from './List';
 
 describe('List item component', () => {
@@ -11,7 +12,11 @@ describe('List item component', () => {
       'image': 'https://vignette.wikia.nocookie.net/heyarnold/images/c/cb/Shelley.jpg/revision/latest/scale-to-width-down/310?cb=20120527025256'
     }];
     
-    const { asFragment } = render(<List characters={characters}/>);
+    const { asFragment } = render(
+      <Router>
+        <List characters={characters}/>
+      </Router>);
+      
     expect(asFragment()).toMatchSnapshot();
   });
 });

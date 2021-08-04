@@ -4,9 +4,15 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Ul = styled.ul`
+list-style-type: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 `; 
 
 const Li = styled.li`
+display: flex;
+justify-content: center;
+margin: 25px;
 `;
 
 export default function List({ characters }){
@@ -15,7 +21,7 @@ export default function List({ characters }){
       {characters.map(char => {
         return (
           <Li key={char._id}>
-            <ListItem image={char.image}/>
+            <ListItem image={char.image} id={char._id}/>
           </Li>
         ); 
       })}
